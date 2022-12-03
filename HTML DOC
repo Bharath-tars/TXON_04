@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <a href="#home" class="scroll-top">
+    <i class='bx bx-up-arrow-alt'></i>
+  </a>
+  <header>
+    <div class="nav container">
+      <a href="#home" class="logo">ɮ4ʀ</a>
+      <ul class="navbar">
+        <li><a href="#home" class="nav-link active">HOME</a></li>
+        <li><a href="#about" class="nav-link">ABOUT</a></li>
+        <li><a href="#portfolio" class="nav-link">PROJECTS</a></li>
+        <li><a href="#certificates" class="nav-link">SKILLS</a></li>
+        <li><a href="#contact" class="nav-link">CONTACT</a></li>
+      </ul>
+
+      <div class="menu-icon">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+  </header>
+  </div>
+  </header>
+
+  <section class="home container" id="home">
+    <div class="home-content">
+      <div class="home-img">
+        <img src="pics/pic1.jpg" alt="">
+      </div>
+
+      <div class="home-text">
+        <h3>HEY THERE &#128075;</h3>
+        <h2>I'm<span class="color"> Bharath Sudarsanam</span></h2>
+        <p> A <span class="color">Front-End Web Developer</span>, Android App Developer, UI/UX Designer and what not?<br/>Always here excellence!!</p>
+      </div>
+      <br>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/bharath-s-81b4bb1a4/" target=”_blank”><i
+            class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Bharath-tars" target=”_blank”><i class='bx bxl-github'></i></a>
+        <a href="https://twitter.com/itzmebharath300" target=”_blank”><i class='bx bxl-twitter'></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about container" id="about">
+    <h2 class="heading">About</h2>
+
+    <div class="about-content">
+      <div class="about-data">
+        <span>About Me</span>
+        <h2>Front-end Web developer</h2>
+      </div>
+      <div class="about-text">
+        <p>Hello! I'm Bharath Sudarsanam..I'm a person who is convinced that the only thing that kept me going was I loved what I did!! 
+            I believe I'm at a point in my life where my ultimate goal is to succeed in learning something new till the end...</p>
+        <p> I'm a tech enthusiastic.. with a good sence of humour and problem solving skill. I believe that being a student from CSE domain, it's a must to master all kind of technologies avaliable..Guess you can 
+            watch me now, i'm a jack of all trades!
+        </p>
+        <!-- <p>I am a Computer Science student wanting to enrich my knowledge on computer science as well.</p> -->
+      </div>
+      <div>
+        <a href="https://drive.google.com/file/d/1uBL4MvkGAXyobvUkhi1SdoGjJovdTdjX/view?usp=sharing" target="_blank" class="btn" download="">Download CV<i class='bx bx-download'></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <h2 class="heading">Experience</h2>
+    <div class="container1">
+      <div class="timeline">
+        <ul>
+          <li>
+            <div class="timeline-content">
+              <h2 class="date"><i class='bx bxs-briefcase'></i> 2019 - 2021</h2>
+              <h1>Narayana Junior Collage</h1>
+              <h5>High School</h5>
+              <p>I Completed my high School from Narayana Junior Collage , Hyderabad. I was there for about 2 year between
+                2019-2021 and passed with an score of 94%</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <h2 class="date"><i class='bx bxs-briefcase'></i> 2021 - Present </h2>
+              <h1>MLR Institute of Technology </h1>
+              <h5>Bachelor's</h5>
+              <p>Currently, I am pursing Bachelor degree in Computer Engineering with a specialization of artificial intelligence and machine 
+                leaning from MLR Institute of Technology. I am in second year of my engineering course.</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <h2 class="date"><i class='bx bxs-briefcase'></i> july 2022 - current</h2>
+              <h1>MLRCIE (Centre for Innovation and Entrepreneurship)</h1>
+              <h5>Internship</h5>
+              <p>With my good stats in coding and tech domian i've been selected as a Member of Techical and Product Development wing at MLRCIE
+                ,where my duty was to dive right in to learn, find bugs in different softwares, hold several events like hacktrons to spread awareness among students 
+                about tech stuff etc. 
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <h2 class="date"><i class='bx bxs-briefcase'></i> Nov 2022 - Present</h2>
+              <h1>TXON</h1>
+              <h5>Internship</h5>
+              <p>It is an one month virtual internship as a Web developor in which I have completed three tasks.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio container" id="portfolio">
+    <h2 class="heading">Portfolio</h2>
+    <div class="portfolio-content">
+      <div class="portfolio-box">
+        <img src="pics/iStore.jpg.png" alt="" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h2>iStore Clone</h2>
+          <a href="https://www.figma.com/proto/5p8bxpeDqrvw2BO8I28jHC/TARSy2j?node-id=28%3A42&scaling=scale-down&page-id=0%3A1&starting-point-node-id=28%3A42&show-proto-sidebar=1" target="_blank">
+            <i class='bx bx-link-alt'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="pics/cancer.jpg.png" alt="" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h2>Cancer Prediction Software</h2>
+          <a href="https://github.com/Bharath-tars/Breast-cancer-prediction-model" target="_blank">
+            <i class='bx bx-link-alt'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="pics/kit.jpg.png" alt="" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h2>kitchen Inventory Tracker</h2>
+          <a href="https://github.com/Bharath-tars/Breast-cancer-prediction-model" target="_blank">
+            <i class='bx bx-link-alt'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="pics/music.jpg" alt="" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h2>BL-Music Player</h2>
+          <a href="https://github.com/Bharath-tars/Breast-cancer-prediction-model" target="_blank">
+            <i class='bx bx-link-alt'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="pics/tic.jpg" alt="" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h2>TickTack-Toe Game</h2>
+          <a href="https://github.com/Bharath-tars/Breast-cancer-prediction-model" target="_blank">
+            <i class='bx bx-link-alt'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="pics/todo.jpg.png" alt="" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h2>TO DO WebApp</h2>
+          <a href="https://github.com/Bharath-tars/TXON_03" target="_blank">
+            <i class='bx bx-link-alt'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="pics/netflix.jpg" alt="" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h2>Netfilx Clone</h2>
+          <a href="https://github.com/Bharath-tars/TXON_03/" target="_blank">
+            <i class='bx bx-link-alt'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="pics/guess.jpg" alt="" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h2>Guess the NO game</h2>
+          <a href="https://github.com/Bharath-tars/TXON_03" target="_blank">
+            <i class='bx bx-link-alt'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="pics/tars.jpg.png" alt="" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h2>Personal Portfolio</h2>
+          <a href="https://github.com/Bharath-tars/I-m-Vengeance-portfolio/tree/main" target="_blank">
+            <i class='bx bx-link-alt'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="pics/cie.jpg.png" alt="" class="portfolio-img">
+        <div class="portfolio-overlay">
+          <h2>MLRCIE Website</h2>
+          <a href="https://mlritcie.in//" target="_blank">
+            <i class='bx bx-link-alt'></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="certificates container" id="certificates">
+    <h2 class="heading">Certificates</h2>
+    <div class="certificates-content">
+      <div class="certificates-box">
+        <!-- <i class="bx bx-code-alt"></i> -->
+        <img src="pics/front.jpg" alt="" class="certificates-img">
+        <h2>Web Development</h2>
+        <p>Offered through UDEMY and authorized by YOU ACCEL TRAINING. This course provides an introduction to HTML, CSS, JS for Web Development</p>
+      </div>
+
+      <div class="certificates-box">
+        <!-- <i class="bx bx-code-alt"></i> -->
+        <img src="pics/Netflix react-1.jpg" alt="" class="certificates-img">
+        <h2>Netfilx Clone</h2>
+        <p>Offered through Lets Upgrade and authorized by Google Developer Groups. This course provides an deep insight into Full-Stackapp Development</p>
+      </div>
+
+      <div class="certificates-box">
+        <img src="pics/adobe.jpg" alt="" class="certificates-img">
+        <h2>Adobe PhotoShop</h2>
+        <p>Offered through UDEMY and authorized by YOU ACCEL TRAINING. This course provides an introduction to Adobe PhotoShop and working with multiple images.</p>
+      </div>
+
+      <div class="certificates-box">
+        <img src="pics/Entrepeneurship awareness-1.jpg" alt="" href="" class="certificates-img">
+        <h2>Entrepreneurship Awareness</h2>
+        <p>Offered through Ministry of Small and Micro Entreprises. This course provides an introduction to Entrepeneurship and facing the realtime business challenges. </p>
+      </div>
+
+      <div class="certificates-box">
+        <img src="pics/batch.jpg" alt="" href="" class="certificates-img">
+        <h2>Batch-Script Programming</h2>
+        <p>Offered through UDEMY and authorized by Narendra Dwiwedi. This course provides an introduction to batch script programming, working with command lines for operating an pc during runtime</p>
+      </div>
+
+      <div class="certificates-box">
+        <img src="pics/C language-1.jpg" alt="" href="" class="certificates-img">
+        <h2>C Language</h2>
+        <p>Offered through Naresh IT and authorized by Kishore Naidu. This course provides an introduction to programming using C and let's our confusions on programming clear with good accuracy</p>
+      </div>
+
+      <div class="certificates-box">
+        <img src="pics/neuro.jpg" alt="" href="" class="certificates-img">
+        <h2>Neuroscience Hidden Secrets</h2>
+        <p>Offered through UDEMY and authorized by University of Pennsylvania.  This course provides an deep understanding what happens when we take a decision and how it influences our entire body.</p>
+      </div>
+
+      <div class="certificates-box">
+        <img src="pics/indus.jpg" alt="" href="" class="certificates-img">
+        <h2>Industry 4.0</h2>
+        <p>Offered through UDEMY and authorized by Naresh kumar maheshwari. This course provides an view what kind od problems is industry facing and how can we master all the essentials</p>
+      </div>
+
+      
+      
+
+    </div>
+  </section>
+
+  <section class="project container" id="project">
+    <h2 class="heading">Coding Skills</h2>
+    <div class="project-content">
+      <div class="project-box">
+        <span>Batch Script</span>
+      </div>
+      <div class="project-box">
+        <span>C Language</span>
+      </div>
+      <div class="project-box">
+        <span>C++</span>
+      </div>
+      <div class="project-box">
+        <span>Core Java</span>
+      </div>
+      <div class="project-box">
+        <span>Python</span>
+      </div>
+      <div class="project-box">
+        <span>XML</span>
+      </div>
+    </div>
+    <h2 class="heading">Technical Skills</h2>
+    <div class="project-content">
+      <div class="project-box">
+        <span>Front-End Web Development</span>
+      </div>
+      <div class="project-box">
+        <span>Android App Development</span>
+      </div>
+      <div class="project-box">
+        <span>UI/UX Designing</span>
+      </div>
+      <div class="project-box">
+        <span>Graphic Designing</span>
+      </div>
+      <div class="project-box">
+        <span>Adobe PhotoShop</span>
+      </div>
+      <div class="project-box">
+        <span>WordPress Elementor</span>
+      </div>
+    </div>
+    <h2 class="heading">Experience Count</h2>
+    <div class="project-content">
+
+      <div class="project-box">
+        <h2>2+</h2>
+        <span>Internship Experience</span>
+      </div>
+
+      <div class="project-box">
+        <h2>9+</h2>
+        <span>Projects Completed</span>
+      </div>
+
+      <div class="project-box">
+        <h2>2+</h2>
+        <span>Websites Developed</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact container" id="contact">
+    <h2 class="heading">Contact</h2>
+    <div class="about-text">
+      <h2>DON'T BE SHY !</h2>
+      <p>Feel free to get in touch with me.<br>I am always here to expand my connectivity, creative ideas or
+        opportunities to be a part of your visions.</p>
+    </div>
+    <form action="" class="contact-form" id="contact-form">
+      <input type="text" placeholder="Your Name" class="name" id="Name" required>
+      <input type="email" name="" id="Email" placeholder="Email address...." class="email" required>
+      <textarea name="" cols="20" rows="5" placeholder="Write message here......" class="message" id="Message" required></textarea>
+      <input type="submit" value="Send" class="send-btn">
+    </form>
+  </section>
+
+
+  <section class="footer container" id="footer">
+    <div class="social">
+      <a href="mailto:bharath.sudarsanam04@gmail.com"><i class='bx bx-envelope'></i></a>
+      <a href="https://www.linkedin.com/in/bharath-s-81b4bb1a4/" target=”_blank”><i
+        class='bx bxl-linkedin'></i></a>
+    <a href="https://github.com/Bharath-tars" target=”_blank”><i class='bx bxl-github'></i></a>
+    <a href="https://twitter.com/itzmebharath300" target=”_blank”><i class='bx bxl-twitter'></i></a>
+    </div>
+
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Disclaimer</a>
+    </div>
+
+    <p>@2022 &#169; Made with 🧡to you by Bharath Sudarsanam</p>
+  </section>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <script type="text/javascript">
+      (function(){
+      emailjs.init("ySC2lplysoW84Rn2R");
+      })();
+  </script>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
